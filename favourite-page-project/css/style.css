@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ebebeb;
+    font-family: Monaco, sans-serif;
+}
+
+header {
+    background-color: #BADA55;
+    padding: 1rem;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header ul {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.products-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.product {
+    background-color: #FF15FF;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: black;
+}
+.product img {
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: contain;
+    height: 228px;
+}
+.heart:hover {
+    cursor: pointer;
+}
+
+.active-heart {
+    fill: brown;
+    stroke: #BADA55;
+}
