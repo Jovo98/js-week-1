@@ -38,5 +38,14 @@ const theHoverBtn = document.querySelector(".pet-btn");
 
 const handleMouseOver = function (event){
     console.log(event.target.dataset.animal);
+    event.target.style.background = "red"
+
+}
+const handleMouseLeave = function (event){
+    console.log(event.target.dataset.animal);
+    event.target.style.background = "blue"
+
 }
 theHoverBtn.addEventListener("mouseover", handleMouseOver)
+
+theHoverBtn.addEventListener("mouseleave", handleMouseLeave)
