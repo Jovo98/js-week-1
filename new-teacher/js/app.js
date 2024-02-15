@@ -17,6 +17,7 @@
 // let todo2Name = "Learn JS Arrays"
 // let todo2Done = false
 // let todo2Date = "Wednesday"
+
 let todos = []
 
 let todo = fetch("https://jsonplaceholder.typicode.com/users")
